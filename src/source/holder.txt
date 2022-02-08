@@ -1,0 +1,111 @@
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 31
+1
+0
+Number of coincidence: 3Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 31
+1
+0
+Number of coincidence: 3Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 31
+1
+0
+Number of coincidence: 3Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 31
+1
+0
+Number of coincidence: 3
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+1
+1
+0
+Number of coincidence: 3
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+2022-02-09 01:10:49.2607071
+1
+0
+Number of coincidence: 3
+2022-02-09 01:10:49.260707Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+2022-02-09 01:11:49.3405651
+1
+0
+Number of coincidence: 3
+2022-02-09 01:11:49.340565Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+2022-02-09 01:13:05.161854
+1
+1
+0
+Number of coincidence: 3
+2022-02-09 01:13:05.161854
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+2022-02-09 01:13:23.775148
+1
+1
+0
+Number of coincidence: 3
+
+2022-02-09 01:13:23.790800
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+
+2022-02-09T01:19:15.904160
+1
+1
+0
+Number of coincidence: 3
+
+2022-02-09T01:19:15.904160
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+
+2022-02-09T01:19:55.877902
+1
+1
+0
+Number of coincidence: 3
+
+2022-02-09T01:19:55.877902
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+
+2022-02-09 01:23:09
+1
+1
+0
+Number of coincidence: 3
+
+2022-02-09 01:23:09
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+
