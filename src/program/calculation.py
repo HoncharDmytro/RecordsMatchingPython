@@ -1,14 +1,16 @@
 from datetime import datetime
+from typing import TextIO, Tuple, Iterable
 
 
 def read(record: str) -> list:
+    '''Takes  a file path, reads, validates and writes to the list.'''
     with open(record, "r", encoding="UTF-8") as input_stream:  # 'rb'
-        data = pars(input_stream)
+        data = __pars(input_stream)
     input_stream.close()
     return data
 
 
-def pars(file):
+def __pars(file: TextIO) -> list:
     _list = list()
     for value in file.read():
         if value.isdigit():
@@ -16,7 +18,8 @@ def pars(file):
     return _list
 
 
-def matching_analysing(list_one, list_two):
+def matching_analysing(list_one: list, list_two: list) -> Tuple[int, list]:
+    '''Takes two lists, compares each element line by line, and returns a list of matching values and their count.'''
     iterator = 0
     counter = 0
     matching = list()
@@ -29,11 +32,13 @@ def matching_analysing(list_one, list_two):
     return counter, matching
 
 
-def matching_analysing_with_numeration(list_one, list_two):
+def matching_analysing_with_numeration(list_one: list, list_two: list) -> Tuple[int, dict]:
+    '''Takes two lists, compares each element line by line, and returns a tuple of matching values(where key is line
+    number and value is matched number) and their count.'''
     iterator = 0
     counter = 0
     matching = dict()
-    fgf = ratio_check(list_one, list_two)
+    fgf = __ratio_check(list_one, list_two)
     for i in range(fgf):
         if list_one[i] == list_two[i]:
             matching[i] = list_one[i]
@@ -42,14 +47,15 @@ def matching_analysing_with_numeration(list_one, list_two):
     return counter, matching
 
 
-def ratio_check(list_one, list_two):
+def __ratio_check(list_one: list, list_two: list) -> int:
     if len(list_one) <= len(list_two):
         return len(list_one)
     else:
         return len(list_two)
 
 
-def save(data, counter, file):
+def save(data: Iterable[int], counter: int, file: str) -> None:
+    '''Takes a data to write, matching counter, path to the file ant save data in it.'''
     with open(file, "a", encoding="UTF-8") as writer:  # 'wb'
         writer.write(str(datetime.now().replace(microsecond=0))+'\n')
         if type(data) == list:
