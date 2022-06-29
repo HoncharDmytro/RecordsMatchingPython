@@ -10,3 +10,63 @@ Line:2, Value: 1
 Line:6, Value: 0
 Number of coincidence: 3
 
+2022-06-29 14:25:52
+1
+1
+0
+Number of coincidence: 3
+
+2022-06-29 14:25:52
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+
+2022-06-29 14:26:21
+1
+1
+0
+Number of coincidence: 3
+
+2022-06-29 14:26:21
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+
+2022-06-29 14:28:32
+1
+1
+0
+Number of coincidence: 3
+
+2022-06-29 14:28:32
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+
+2022-06-29 14:45:00
+1
+1
+0
+Number of coincidence: 3
+
+2022-06-29 14:45:00
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+
+2022-06-29 14:45:06
+1
+1
+0
+Number of coincidence: 3
+
+2022-06-29 14:45:06
+Line:0, Value: 1
+Line:2, Value: 1
+Line:6, Value: 0
+Number of coincidence: 3
+

@@ -1,0 +1,4 @@
+Create folder .venv
+pipenv shell //activate environment
+pipenv install flask // install flask in .venv, add dependency to Pipfile and Pipfile.lock
+https://towardsdatascience.com/python-environment-101-1d68bda3094d //more info

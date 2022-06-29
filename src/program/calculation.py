@@ -19,7 +19,8 @@ def __pars(file: TextIO) -> list:
 
 
 def matching_analysing(list_one: list, list_two: list) -> Tuple[int, list]:
-    '''Takes two lists, compares each element line by line, and returns a list of matching values and their count.'''
+    '''Takes two lists, compares each element line by line, and returns a list of matching values
+    and their count.'''
     iterator = 0
     counter = 0
     matching = list()
@@ -33,8 +34,8 @@ def matching_analysing(list_one: list, list_two: list) -> Tuple[int, list]:
 
 
 def matching_analysing_with_numeration(list_one: list, list_two: list) -> Tuple[int, dict]:
-    '''Takes two lists, compares each element line by line, and returns a tuple of matching values(where key is line
-    number and value is matched number) and their count.'''
+    '''Takes two lists, compares each element line by line, and returns a tuple of matching values
+    (where key is line number and value is matched number) and their count.'''
     iterator = 0
     counter = 0
     matching = dict()
